@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:rgb(3, 37, 3);
+    color: white;
+}
+header{
+    position: fixed;
+}
+nav{
+    width: 200vh;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(2, 19, 2);
+}
+nav ul{
+    display: flex;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(140, 140, 207);
+    font-weight: lighter;
+}
+.name{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+}
+.leftSection{
+    width: 45%;
+    margin: 25vh 0;
+    align-items: center;
+    font-size: 2.7rem;
+}
+.rightSection{
+    margin: 20vh 0;
+}
+.name2{
+    color: rgb(135, 212, 19);
+}
+#element{
+    color: rgb(135, 212, 19);
+}
+.leftSection .btn{
+     border:2px solid rgb(90, 85, 85);
+     border-radius: 8px;
+     padding: 5px;
+     background-color: rgb(47, 70, 2);
+     cursor: pointer;
+}
+.leftSection .btn a{
+    text-decoration: none;
+     color: white;
+     font-weight: bolder;
+    }
+.leftSection .btn:hover{
+    box-shadow: 0 0 5px greenyellow;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding: 15vh;
+}
+.about-img{
+    width: 40%;
+}
+.text{
+    width: 45%;
+}
+.text h1{
+    color: rgb(135, 212, 19);
+    font-size: 2rem;
+}
+.text h2{
+    margin: 5vh 0;
+    color: rgb(135, 212, 19);
+}
+.text p{
+    text-align: justify;
+}
+.text a{
+    text-decoration: none;
+    color: white;
+}
+.text button{
+    margin: 10vh 0;
+     border:2px solid rgb(90, 85, 85);
+     border-radius: 8px;
+     padding: 5px;
+     color: white;
+     font-weight: bolder;
+     background-color: rgb(47, 70, 2);
+     cursor: pointer;
+}
+.text button:hover{
+    box-shadow: 0 0 5px greenyellow;
+}
+
+.service h1{
+    text-align: center;
+}
+.service h1 span{
+    color: rgb(135, 212, 19);
+}
+.service{
+    padding: 15vh 0 15vh 0;
+    }
+.service-container{
+    padding: 5vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
+.service1{
+    width:50vh;
+    padding: 3vh;
+    border-radius: 2vh;
+    box-shadow: 1px 1px 25px green;
+}
+.service1 > p{
+    margin: 5vh 0;
+}
+.service1 a{
+    text-decoration: none;
+    color: white;
+}
+.service1 button{
+    margin: 10vh 0;
+     border:2px solid rgb(90, 85, 85);
+     border-radius: 8px;
+     padding: 5px;
+     color: white;
+     font-weight: bolder;
+     background-color: rgb(47, 70, 2);
+     cursor: pointer;
+     margin: 3vh 16vh;
+}
+.service1 button:hover{
+    box-shadow: 0 0 5px greenyellow;
+}
+
+.service2{
+    width:50vh;
+    padding: 3vh;
+    border-radius: 2vh;
+    box-shadow: 1px 1px 25px green;
+}
+.service2 > p{
+    margin: 5vh 0;
+}
+.service2 a{
+    text-decoration: none;
+    color: white;
+}
+.service2 button{
+    margin: 10vh 0;
+     border:2px solid rgb(90, 85, 85);
+     border-radius: 8px;
+     padding: 5px;
+     color: white;
+     font-weight: bolder;
+     background-color: rgb(47, 70, 2);
+     cursor: pointer;
+     margin: 3vh 16vh;
+}
+.service2 button:hover{
+    box-shadow: 0 0 5px greenyellow;
+}
+
+.service3{
+    width:50vh;
+    padding: 3vh;
+    border-radius: 2vh;
+    box-shadow: 1px 1px 25px green;
+}
+.service3 > p{
+    margin: 5vh 0;
+}
+.service3 a{
+    text-decoration: none;
+    color: white;
+}
+.service3 button{
+    margin: 10vh 0;
+     border:2px solid rgb(90, 85, 85);
+     border-radius: 8px;
+     padding: 5px;
+     color: white;
+     font-weight: bolder;
+     background-color: rgb(47, 70, 2);
+     cursor: pointer;
+     margin: 3vh 16vh;
+}
+.service3 button:hover{
+    box-shadow: 0 0 5px greenyellow;
+}
+
+.project h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.project h1 span{
+    color: rgb(135, 212, 19);
+}
+.project{
+    margin: 11vh 0;
+    padding: 15vh 5vh 15vh 5vh;
+}
+.project h2{
+    margin-bottom: 4rem;
+}
+.project-container{
+    margin: 11vh 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 3rem;
+}
+.project-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem green;
+    overflow: hidden;
+    display: flex;
+}
+.project-box img{
+    width: 100%;
+}
+.project-box .project-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background: linear-gradient(greenyellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.contact h1{
+    text-align: center;
+}
+.contact h1 span{
+    color: rgb(135, 212, 19);
+}
+.contact form{
+    text-align: center;
+    padding: 5vh;
+}
+.contact form .input-box input,
+.contact form textarea{
+    padding: .8rem;
+    font-size: 1rem;
+    border-radius: .8rem;
+    margin: .5rem 0;
+    background-color:rgb(26, 59, 35);
+}
+.contact form textarea{
+    width: 43%;
+}
+.contact form .input-box input{
+    width: 20%;
+}
+.contact .btn{
+     border:2px solid rgb(90, 85, 85);
+     border-radius: 8px;
+     padding: 5px;
+     color: white;
+     font-weight: bold;
+     background-color: rgb(47, 70, 2);
+     cursor: pointer;
+}
+.contact .btn:hover{
+    box-shadow: 1px 1px 15px yellowgreen;
+}
